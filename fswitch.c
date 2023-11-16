@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * fswitch - Handle a specifier and update the count
+ * fswitch - Handle a specifier and update the count.
  * @specifier: Specifier character
  * @args: Variable arguments list
  * @count: Pointer to the count variable
