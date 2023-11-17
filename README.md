@@ -16,7 +16,7 @@ That image shows specifiers that we can use in the printf.  In this case, _print
 |c|_putchar|print just a char| 
 |i|printeg|print a number in base 10|
 |d|printeg|print a number in base 10|
-## Flowcharts
+## Flowchart
 
 
 
