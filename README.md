@@ -12,10 +12,10 @@ In other words, the function receives a format (*const char* **format*) and a li
 That image shows specifiers that we can use in the printf.  In this case, _printf just allow specifiers like   
 |Specifiers|Functions|Description| 
 |--|--|--|
-|s|print_string|print a string| 
-|c|print_char|print just a char| 
-|i|print_integer|print a number in base 10|
-|d|print_integer|print a number in base 10|
+|s|_printstring|print a string| 
+|c|_putchar|print just a char| 
+|i|printeg|print a number in base 10|
+|d|printeg|print a number in base 10|
 ## Flowcharts
 
 
