@@ -22,5 +22,5 @@ That image shows specifiers that we can use in the printf.  In this case, _print
 
 ## Authors
 
-* Ignacio Rivero <a href="https://github.com/riveroignacio04" rel="nofollow"><img align="center" alt="github" src="https://www.vectorlogo.zone/logos/github/github-tile.svg" height="24" /></a>
+* Ignacio Rivero <a href="https://github.com/rivero04" rel="nofollow"><img align="center" alt="github" src="https://www.vectorlogo.zone/logos/github/github-tile.svg" height="24" /></a>
 * Felipe Olivera <a href="https://github.com/Teby4" rel="nofollow"><img align="center" alt="github" src="https://www.vectorlogo.zone/logos/github/github-tile.svg" height="24" /></a>
