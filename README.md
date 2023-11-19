@@ -17,7 +17,7 @@ That image shows specifiers that we can use in the printf.  In this case, _print
 |i|printeg|print a number in base 10|
 |d|printeg|print a number in base 10|
 ## Flowchart
-
+![enter image description here](C:\Users\ignac\OneDrive\Escritorio\Captura de pantalla 2023-11-19 115332.png) 
 
 
 ## Authors
