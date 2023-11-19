@@ -14,7 +14,7 @@ void fswitch(char specifier, va_list args, int *count)
 
 switch (specifier)
 {
-	case '%':
+	case '%': /*check for 2 % in a row and print one*/
 		_putchar('%');
 		(*count)++;
 	break;
@@ -32,7 +32,7 @@ switch (specifier)
 	case 'd':
 	case 'i':
 		num = va_arg(args, int);
-		if (num < 0)
+		if (num < 0) /*in case of a negative number put - in front of it*/
 		{
 			_putchar('-');
 			num = -num;
@@ -41,7 +41,7 @@ switch (specifier)
 		printeg(num, count);
 	break;
 
-	default:
+	default: /*if the next charcter to % isnt a specifier print it along whit the % ej: %k*/
 		_putchar('%');
 		_putchar(specifier);
 		(*count) += 2;
