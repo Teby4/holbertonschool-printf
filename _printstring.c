@@ -12,18 +12,18 @@ void _printstr(char *sstr, char *null_str, int *count)
 {
 	int j;
 
-	if (sstr == NULL)
+	if (sstr == NULL) /*if string is null print "(null)"*/
 	{
 		while (*null_str)
 		{
 			_putchar(*null_str++);
 			(*count)++;
 		}
-		null_str = "(null)";
+		null_str = "(null)"; /*reset null string for the next case*/
 	}
 	else
 	{
-		for (j = 0; sstr[j] != '\0'; j++)
+		for (j = 0; sstr[j] != '\0'; j++) /*print the string and count characters*/
 		{
 			_putchar(sstr[j]);
 			(*count)++;
