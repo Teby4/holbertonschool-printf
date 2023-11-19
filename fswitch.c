@@ -41,7 +41,7 @@ switch (specifier)
 		printeg(num, count);
 	break;
 
-	default: /*if the next charcter to % isnt a specifier print it along whit the % ej: %k*/
+	default: /*if the next char to % isnt a specifier print it along whit the % */
 		_putchar('%');
 		_putchar(specifier);
 		(*count) += 2;
