@@ -9,7 +9,7 @@
  */
 void printeg(int num, int *count)
 {
-	if (num == -2147483648)
+	if (num == -2147483648) /*int min*/
 	{
 		_putchar('2');
 		_putchar('1');
