@@ -12,7 +12,7 @@ int _printf(const char *format, ...)
 
 	va_list args;
 
-	if (format == NULL || *format == '\0')
+	if (format == NULL || *format == '\0') /*check for null format*/
 	{
 		return (-1);
 	}
@@ -21,18 +21,18 @@ int _printf(const char *format, ...)
 
 	while (format[i])
 	{
-		if (format[i] == '%')
+		if (format[i] == '%') /*look for % to set up switch cases */
 		{
 			i++;
 
-			if (format[i] == '\0')
+			if (format[i] == '\0') /*check for null again*/
 			{
 				return (-1);
 			}
 
 			fswitch(format[i], args, &count);
 		}
-		else
+		else /*if the next character to the % isnt a valid specifier print it */
 		{
 			_putchar(format[i]);
 			count++;
@@ -44,3 +44,4 @@ int _printf(const char *format, ...)
 	return (count);
 
 }
+
